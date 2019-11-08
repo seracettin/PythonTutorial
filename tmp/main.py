@@ -1,15 +1,3 @@
-def func(x):
-
-	def func1():
-
-		print("Decorated")
-
-		x()
-
-	func1()
-
-def func2():
-
-	print("Ordinary")
-
-p = func(func2)
+x = "abcdef"
+for i in x[::-1]:
+	print(i,end= " ")
