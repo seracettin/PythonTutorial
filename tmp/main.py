@@ -1,3 +1,9 @@
-x = "abcdef"
-for i in x[::-1]:
-	print(i,end= " ")
+t = 'abcd'
+
+for i in range(len(t)):
+
+	t[i].upper()
+
+	
+
+print(t)
